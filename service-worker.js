@@ -5,10 +5,9 @@ self.addEventListener('install', (event) => {
             return cache.addAll([
                 '/',
                 'index.html',
-                'styles.css',
+                'style.css',
                 'app.js',
-                // Add other static assets here
-            ]);
+             ]);
         })
     );
 });
